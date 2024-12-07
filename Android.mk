@@ -4,8 +4,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-LOCAL_ALLOW_UNDEFINED_SYMBOLS := true
-
 ifneq ($(filter alioth apollon cas cmi dagu elish enuma lmi munch pipa psyche thyme umi,$(TARGET_DEVICE)),)
 
 endif
